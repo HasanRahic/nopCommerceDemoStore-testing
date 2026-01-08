@@ -23,7 +23,6 @@ npm test
 
 ## Documentation
 
-```bash```
 All project-related documents can be found in the Dokumentacija folder.
 
 ## Troubleshooting
@@ -38,11 +37,11 @@ Follow these steps:
    ```bash
    Ctrl + C
 3. Manually open Chrome (regular Chrome, not Selenium):
-  - Open Chrome
-  - Go to: https://demo.nopcommerce.com/
-  - If prompted:
-  - Cookie banner → click Accept
-  - Human verification → complete it manually
+     - Open Chrome
+     - Go to: https://demo.nopcommerce.com/
+     - If prompted:
+     - Cookie banner → click Accept
+     - Human verification → complete it manually
 4. Close that Chrome window.
 5. Run the tests again:
   ```bash
