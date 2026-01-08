@@ -1,0 +1,33 @@
+npm test
+
+
+
+Ponekad se prilikom prvog pokretanja Selenium testova može pojaviti stranica “Verify you are human”. To nije greška u testovima.
+
+Uradi sljedeće korake:
+
+Ne diraj ništa u Selenium Chrome prozoru
+(samo ga zatvori na X).
+
+U terminalu prekini test:
+
+Ctrl + C
+
+
+Ručno otvori Chrome (obični, ne Selenium):
+
+otvori Chrome
+
+idi na:
+👉 https://demo.nopcommerce.com
+
+ako se pojavi:
+
+cookie banner → klikni Accept
+
+ili human check → riješi ga ručno
+
+Zatvori taj Chrome prozor.
+
+Ponovo pokreni testove: 
+npm test
